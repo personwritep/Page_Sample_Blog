@@ -11,8 +11,8 @@
 // @icon        https://www.google.com/s2/favicons?sz=64&domain=ameblo.jp
 // @noframes
 // @grant        none
-// @updateURL        https://github.com/personwritep/Protecters/raw/main/Page_Sample_Blog.user.js
-// @downloadURL        https://github.com/personwritep/Protecters/raw/main/Page_Sample_Blog.user.js
+// @updateURL        https://github.com/personwritep/Page_Sample_Blog/raw/main/Page_Sample_Blog.user.js
+// @downloadURL        https://github.com/personwritep/Page_Sample_Blog/raw/main/Page_Sample_Blog.user.js
 // ==/UserScript==
 
 
