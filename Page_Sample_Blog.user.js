@@ -8,6 +8,7 @@
 // @match        https://www.ameba.jp/home
 // @match        https://blog.ameba.jp/*
 // @match        https://comment.ameba.jp/*
+// @exclude        https://blog.ameba.jp/ucs/entry/srventry*
 // @icon        https://www.google.com/s2/favicons?sz=64&domain=ameblo.jp
 // @noframes
 // @grant        none
