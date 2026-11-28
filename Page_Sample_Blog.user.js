@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        Page Sample Blog 🔵
 // @namespace        http://tampermonkey.net/
-// @version        1.6
+// @version        1.7
 // @description        ブログページサンプルのプレゼンテーション「Ctrl+F2」
 // @author        Ameba Blog User
 // @match        https://ameblo.jp/*
@@ -80,11 +80,11 @@ function main(){
 
 
     // アメブロヘッダー ログインユーザー表示
-    let login_Avatar=document.querySelector('._1ADjOjLk >img');
+    let login_Avatar=document.querySelector('[class="_p+F+YStz"] >img');
     if(login_Avatar){
         login_Avatar.setAttribute('srcset', Avatar); } // ログインユーザー アイコン
 
-    let login_name=document.querySelector('._5eamczd_');
+    let login_name=document.querySelector('._uw4Sls0X');
     if(login_name){
         login_name.textContent='Login User'; } // ログインユーザー名
 
@@ -144,7 +144,7 @@ function main(){
     if(rankingResult[0]){
         rankingResult[0].textContent='*****'; }
     if(rankingResult[1]){
-        rankingResult[1].textContent='***'; }
+        rankingResult[1].textContent='*****'; }
 
 
     // サイドバー よく使う公式ハッシュタグ表示
